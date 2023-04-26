@@ -1,0 +1,35 @@
+
+
+
+.charmander{
+    background: #fb6b6b;
+    box-shadow: 0px 0px 5px #fb6b6b; /* sombra do card */
+}
+.charmander:hover{
+    box-shadow: 0px 0px 25px #fb6b6b; /* sombra do card */
+}
+
+.squirtle{
+    background: #73bcfc;
+    box-shadow: 0px 0px 5px #73bcfc; /* sombra do card */
+}
+.squirtle:hover{
+    box-shadow: 0px 0px 25px #73bcfc; /* sombra do card */
+}
+
+.pikachu{
+    background: #ffce4b;
+    box-shadow: 0px 0px 5px #ffce4b; /* sombra do card */
+}
+.pikachu:hover{
+    box-shadow: 0px 0px 25px #ffce4b; /* sombra do card */
+}
+
+
+.lumineon{
+    background: #8fdedb;
+    box-shadow: 0px 0px 5px #8fdedb; /* sombra do card */
+}
+.lumineon:hover{
+    box-shadow: 0px 0px 25px #8fdedb; /* sombra do card */
+}

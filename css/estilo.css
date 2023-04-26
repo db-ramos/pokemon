@@ -1,0 +1,53 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(243, 215, 123);
+}
+
+header h1{
+   letter-spacing: 0.8rem; /* espaço entre as letras*/ 
+   text-align: center; /* alinhamento do texto */
+   line-height: 4rem; /* altura da linha */
+   text-transform: uppercase; 
+   text-decoration: underline overline;
+}
+
+body{
+    background-color: rgb(0,0,0);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgb(255, 255,255);
+    width: 250px;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 8px;
+    transition-duration: 0.3s; /* duração da animação */
+}
+.card img{
+    width: 100%;
+    border-bottom: 1px solid rgb(243, 215, 123);
+}
+.card p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+.card:hover{
+    transform: scale(1.05) rotate(15deg);
+}

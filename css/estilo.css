@@ -51,3 +51,26 @@ main{
 .card:hover{
     transform: scale(1.05) rotate(15deg);
 }
+
+.info{
+    background-color: white;
+    width: 250px;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info div{
+    width: 100px;
+    margin-bottom: 18px;
+}
+.legenda{ 
+    font-weight: bold; 
+    color: var(--charmander-color);
+    font-family: Poppins,Arial;
+}
+.valor{
+    font-size: 1.1rem;
+}

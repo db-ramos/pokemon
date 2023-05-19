@@ -1,35 +1,40 @@
 
-
+:root{
+   --charmander-color: #fb6b6b;
+   --squirtle-color: #73bcfc;
+   --pikachu-color: #ffce4b;
+   --lumineon-color: #8fdedb;
+}
 
 .charmander{
-    background: #fb6b6b;
-    box-shadow: 0px 0px 5px #fb6b6b; /* sombra do card */
+    background: var(--charmander-color);
+    box-shadow: 0px 0px 5px var(--charmander-color); /* sombra do card */
 }
 .charmander:hover{
-    box-shadow: 0px 0px 25px #fb6b6b; /* sombra do card */
+    box-shadow: 0px 0px 25px var(--charmander-color); /* sombra do card */
 }
 
 .squirtle{
-    background: #73bcfc;
-    box-shadow: 0px 0px 5px #73bcfc; /* sombra do card */
+    background: var(--squirtle-color);
+    box-shadow: 0px 0px 5px var(--squirtle-color); /* sombra do card */
 }
 .squirtle:hover{
-    box-shadow: 0px 0px 25px #73bcfc; /* sombra do card */
+    box-shadow: 0px 0px 25px var(--squirtle-color); /* sombra do card */
 }
 
 .pikachu{
-    background: #ffce4b;
-    box-shadow: 0px 0px 5px #ffce4b; /* sombra do card */
+    background: var(--pikachu-color);
+    box-shadow: 0px 0px 5px var(--pikachu-color); /* sombra do card */
 }
 .pikachu:hover{
-    box-shadow: 0px 0px 25px #ffce4b; /* sombra do card */
+    box-shadow: 0px 0px 25px var(--pikachu-color); /* sombra do card */
 }
 
 
 .lumineon{
-    background: #8fdedb;
-    box-shadow: 0px 0px 5px #8fdedb; /* sombra do card */
+    background: var(--lumineon-color);
+    box-shadow: 0px 0px 5px var(--lumineon-color); /* sombra do card */
 }
 .lumineon:hover{
-    box-shadow: 0px 0px 25px #8fdedb; /* sombra do card */
+    box-shadow: 0px 0px 25px var(--lumineon-color); /* sombra do card */
 }
